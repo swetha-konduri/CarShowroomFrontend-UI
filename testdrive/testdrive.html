@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swetha Luxury Cars - Test Drive</title>
+<link rel="stylesheet" href="testdrive.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🚗 Book A Test Drive</h1>
+    <p>Experience Your Dream Car Before Buying</p>
+</header>
+
+<div class="testdrive-container">
+
+    <form id="testDriveForm">
+
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="tel" id="phone" placeholder="Mobile Number" required>
+
+        <input type="email" id="email" placeholder="Email Address" required>
+
+        <select id="car" required>
+            <option value="">Select Car</option>
+            <option>BMW M4</option>
+            <option>Audi R8</option>
+            <option>Mercedes AMG GT</option>
+            <option>Lamborghini Huracan</option>
+            <option>Ferrari 488</option>
+            <option>Mahindra Thar</option>
+            <option>Mahindra XUV700</option>
+            <option>Toyota Fortuner</option>
+            <option>Range Rover Sport</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+        <button type="submit">
+            Book Test Drive
+        </button>
+
+    </form>
+
+    <div id="message"></div>
+
+</div>
+
+<script src="testdrive.js"></script>
+
+</body>
+</html>

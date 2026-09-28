@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swetha Luxury Cars - Cars</title>
+
+<link rel="stylesheet" href="cars.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Swetha Luxury Cars</h1>
+    <p>Premium Luxury Cars Collection</p>
+</header>
+
+<section class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Cars...">
+</section>
+
+<section class="cars-container" id="carsContainer">
+
+    <div class="car-card">
+    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&auto=format&fit=crop" alt="BMW M4">
+    <h2>BMW M4</h2>
+    <p>Price: ₹90,00,000</p>
+    <p>Rent: ₹15,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+    </div>
+
+    <div class="car-card">
+       <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop" alt="Audi R8">
+
+        <h2>Audi R8</h2>
+        <p>Price: ₹2,00,00,000</p>
+        <p>Rent: ₹25,000 / Day</p>
+       <button onclick="showDetails(this)">View Details</button>
+    </div>
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop" alt="Mercedes AMG GT">
+        <h2>Mercedes AMG GT</h2>
+        <p>Price: ₹1,50,00,000</p>
+        <p>Rent: ₹20,000 / Day</p>
+        <button onclick="showDetails(this)">View Details</button>
+    </div>
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop" alt="Lamborghini">
+        <h2>Lamborghini Huracan</h2>
+        <p>Price: ₹4,00,00,000</p>
+        <p>Rent: ₹50,000 / Day</p>
+        <button onclick="showDetails(this)">View Details</button>
+    </div>
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&auto=format&fit=crop" alt="Ferrari">
+        <h2>Ferrari 488</h2>
+        <p>Price: ₹3,50,00,000</p>
+        <p>Rent: ₹45,000 / Day</p>
+        <button onclick="showDetails(this)">View Details</button>
+    </div>
+
+    <div class="car-card">
+  <img src="https://tse3.mm.bing.net/th/id/OIP.eKNIlwE3Pj3drrX_8fTDhQHaEK?r=0&pid=Api&P=0&h=180" alt="Mahindra Thar">
+
+    <h2>Mahindra Thar</h2>
+    <p>Price: ₹12,99,000</p>
+    <p>Rent: ₹3,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.IRb_AzQM8HML99jK5l36QAHaEU?r=0&pid=Api&P=0&h=180" alt="Mahindra Thar ROXX">
+    <h2>Mahindra Thar ROXX</h2>
+    <p>Price: ₹18,00,000</p>
+    <p>Rent: ₹4,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.C6H-tDD8YVpOLOwR568gHAHaEp?r=0&pid=Api&P=0&h=180" alt="XUV700">
+    <h2>Mahindra XUV700</h2>
+    <p>Price: ₹24,00,000</p>
+    <p>Rent: ₹4,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.hl9451dK7Z7OFdfLLELJBwHaEK?r=0&pid=Api&P=0&h=180" alt="Scorpio N">
+    <h2>Mahindra Scorpio N</h2>
+    <p>Price: ₹20,00,000</p>
+    <p>Rent: ₹3,800 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.59o6vsUcTFxtl_JpFN6mngHaE6?r=0&pid=Api&P=0&h=180" alt="Innova Crysta">
+    <h2>Toyota Innova Crysta</h2>
+    <p>Price: ₹26,00,000</p>
+    <p>Rent: ₹4,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.On3-LlT8x2Q__utbZp6t5AHaEO?r=0&pid=Api&P=0&h=180" alt="Fortuner">
+    <h2>Toyota Fortuner</h2>
+    <p>Price: ₹38,00,000</p>
+    <p>Rent: ₹6,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.q50kF1kb7v5sNTQwGayvBQHaE8?r=0&pid=Api&P=0&h=180" alt="Hyundai Creta">
+    <h2>Hyundai Creta</h2>
+    <p>Price: ₹18,00,000</p>
+    <p>Rent: ₹2,800 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.-a8FFCWyrLd6ibUnIIRESAHaEO?r=0&pid=Api&P=0&h=180" alt="Hyundai Verna">
+    <h2>Hyundai Verna</h2>
+    <p>Price: ₹17,00,000</p>
+    <p>Rent: ₹2,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.KEbUOykKTDz-XAkAh7g1DAHaES?r=0&pid=Api&P=0&h=180" alt="Ertiga">
+    <h2>Maruti Suzuki Ertiga</h2>
+    <p>Price: ₹13,00,000</p>
+    <p>Rent: ₹2,200 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.dBv9ibB-mLOD2m5qcDrgLgHaEe?r=0&pid=Api&P=0&h=180" alt="Nexon">
+    <h2>Tata Nexon</h2>
+    <p>Price: ₹15,00,000</p>
+    <p>Rent: ₹2,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.jsAc0RQ7hKGHin5jKcELWgHaEm?r=0&pid=Api&P=0&h=180" alt="Harrier">
+    <h2>Tata Harrier</h2>
+    <p>Price: ₹25,00,000</p>
+    <p>Rent: ₹3,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.hdOpOGj07f8O9AXuuYGgjgHaEK?r=0&pid=Api&P=0&h=180" alt="Safari">
+    <h2>Tata Safari</h2>
+    <p>Price: ₹28,00,000</p>
+    <p>Rent: ₹4,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.SbgyOo1mCPG5Od3hSoOk7QHaEb?r=0&pid=Api&P=0&h=180" alt="Punch">
+    <h2>Tata Punch</h2>
+    <p>Price: ₹10,00,000</p>
+    <p>Rent: ₹2,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.fK5cpJy2J0igtcu7EHigHgHaEK?r=0&pid=Api&P=0&h=180" alt="Venue">
+    <h2>Hyundai Venue</h2>
+    <p>Price: ₹14,00,000</p>
+    <p>Rent: ₹2,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.bpt6yIj37-iQPSerhLGTWgHaEK?r=0&pid=Api&P=0&h=180" alt="Alcazar">
+    <h2>Hyundai Alcazar</h2>
+    <p>Price: ₹22,00,000</p>
+    <p>Rent: ₹3,500 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.tj2qmOCEFCPlcy2MgUXrUQHaE8?r=0&pid=Api&P=0&h=180" alt="Hycross">
+    <h2>Toyota Innova Hycross</h2>
+    <p>Price: ₹32,00,000</p>
+    <p>Rent: ₹5,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.Lezbbu2mkWs8WfJ9IQBEaAHaEo?r=0&pid=Api&P=0&h=180" alt="Seltos">
+    <h2>Kia Seltos</h2>
+    <p>Price: ₹18,00,000</p>
+    <p>Rent: ₹2,800 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.doIri-jqB95W42TzZN9wbAHaEK?r=0&pid=Api&P=0&h=180" alt="Sonet">
+    <h2>Kia Sonet</h2>
+    <p>Price: ₹13,00,000</p>
+    <p>Rent: ₹2,200 / Day</p>
+   <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.LeXKKKNGwBJye_j_GukmUAEsDG?r=0&pid=Api&P=0&h=180" alt="Hector">
+    <h2>MG Hector</h2>
+    <p>Price: ₹23,00,000</p>
+    <p>Rent: ₹3,500 / Day</p>
+   <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.D4ewWpMQxgR0o5okz2vZCAHaEo?r=0&pid=Api&P=0&h=180" alt="Range Rover">
+    <h2>Range Rover Sport</h2>
+    <p>Price: ₹1,20,00,000</p>
+    <p>Rent: ₹18,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.J5iIBEdwTd_FY9egHW5WGAHaEK?r=0&pid=Api&P=0&h=180" alt="Porsche">
+    <h2>Porsche 911</h2>
+    <p>Price: ₹2,50,00,000</p>
+    <p>Rent: ₹30,000 / Day</p>
+   <button onclick="showDetails(this)">View Details</button>
+</div>
+
+<div class="car-card">
+    <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&auto=format&fit=crop" alt="Rolls Royce">
+    <h2>Rolls Royce Phantom</h2>
+    <p>Price: ₹10,00,00,000</p>
+    <p>Rent: ₹1,00,000 / Day</p>
+    <button onclick="showDetails(this)">View Details</button>
+</div>
+
+</section>
+
+<script src="cars.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background:#08142c;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+header{
+    background:#111827;
+    padding:20px;
+}
+
+h1{
+    color:orange;
+}
+
+.compare-box{
+    margin-top:40px;
+}
+
+select{
+    padding:12px;
+    width:250px;
+    margin:10px;
+}
+
+button{
+    padding:12px 25px;
+    background:orange;
+    border:none;
+    cursor:pointer;
+}
+
+#result{
+    margin-top:40px;
+    font-size:22px;
+}

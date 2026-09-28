@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Admin Panel</h2>
+
+    
+    <ul class="sidebar-menu">
+    <li><a href="../admin/addcar.html">Add Car</a></li>
+    <li><a href="../admin/managecars.html">Manage Cars</a></li>
+    <li><a href="../rentals/rentals.html">Rentals</a></li>
+    <li><a href="../carwash/carwash.html">Car Wash</a></li>
+    <li><a href="../testdrive/testdrive.html">Test Drives</a></li>
+    <li><a href="../users/users.html">Users</a></li>
+</ul>
+</div>
+
+<div class="main-content">
+
+    <header>
+        <h1>Swetha Luxury Cars Admin Dashboard</h1>
+    </header>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2 id="cars">27</h2>
+            <p>Total Cars</p>
+        </div>
+
+        <div class="card">
+            <h2 id="rentals">145</h2>
+            <p>Rental Bookings</p>
+        </div>
+
+        <div class="card">
+            <h2 id="wash">98</h2>
+            <p>Car Wash Orders</p>
+        </div>
+
+        <div class="card">
+            <h2 id="users">520</h2>
+            <p>Registered Users</p>
+        </div>
+
+    </div>
+
+    <div class="table-section">
+
+        <h2>Recent Bookings</h2>
+
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>Car</th>
+                <th>Date</th>
+            </tr>
+
+            <tr>
+                <td>Swetha</td>
+                <td>BMW M4</td>
+                <td>20-08-2026</td>
+            </tr>
+
+            <tr>
+                <td>Sai</td>
+                <td>Audi R8</td>
+                <td>21-08-2026</td>
+            </tr>
+
+            <tr>
+                <td>Anu</td>
+                <td>Mahindra Thar</td>
+                <td>22-08-2026</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

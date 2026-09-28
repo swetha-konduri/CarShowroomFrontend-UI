@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#08142c;
+    color:white;
+}
+
+header{
+    background:#111827;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    color:#f59e0b;
+    margin-bottom:10px;
+}
+
+.testdrive-container{
+    width:450px;
+    margin:40px auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+}
+
+.testdrive-container input,
+.testdrive-container select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.testdrive-container button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:8px;
+    background:#f59e0b;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#message{
+    margin-top:20px;
+    text-align:center;
+    color:#22c55e;
+    font-size:18px;
+    font-weight:bold;
+}
